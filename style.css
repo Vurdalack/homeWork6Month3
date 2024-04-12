@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+width: 500px;
+margin: 250px auto;
+text-align: center;
+backdrop-filter: blur(10px);
+padding: 10px;
+border-radius: 10px;
+color: darkblue;
+box-shadow: 0 0 28px -7px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#den{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
